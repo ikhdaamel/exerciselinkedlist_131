@@ -53,7 +53,7 @@ bool CircularLinkedList::listEmpty() {
 }
 
 bool CircularLinkedList::delNode() {												// menghapus node
-
+	return LAST == NULL;
 }
 
 void CircularLinkedList::tranverse() {
