@@ -87,10 +87,12 @@ int main() {
 
 			switch (ch) {
 			case '1': {
-
+				obj.addNode();
+				break;
 			}
 			case '2': {
-
+				obj.delNode();
+				break;
 			}
 			case '3': {
 				obj.tranverse();
